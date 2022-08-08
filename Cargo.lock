@@ -58,17 +58,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "filters"
-version = "0.1.0"
-dependencies = [
- "ctor",
- "log",
- "pandoc",
- "pandoc_types",
- "pretty_env_logger",
-]
-
-[[package]]
 name = "hermit-abi"
 version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -123,6 +112,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d4e5728b4bdfe27803e2376f1e4d07c19dc497d8bfb1bed87878b7815fa989a"
 dependencies = [
  "itertools",
+]
+
+[[package]]
+name = "pandoc-filters"
+version = "0.1.0"
+dependencies = [
+ "ctor",
+ "log",
+ "pandoc",
+ "pandoc_types",
+ "pretty_env_logger",
 ]
 
 [[package]]

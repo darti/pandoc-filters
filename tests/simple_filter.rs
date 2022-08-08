@@ -1,7 +1,7 @@
 use ctor::ctor;
-use filters::dummy;
 use log::info;
 use pandoc::{self, OutputFormat, OutputKind};
+use pandoc_filters::dummy;
 use pretty_env_logger::env_logger::{Builder, Env};
 
 #[ctor]
